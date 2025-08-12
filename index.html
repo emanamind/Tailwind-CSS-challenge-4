@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-[#E7E3DB]">
+
+    <!-- Container -->
+    <div class="flex items-center justify-center flex-col gap-5 py-2 max-w-100 mx-auto">
+        <!-- Header -->
+        <div class="bg-white items-center justify-center shadow-sm flex flex-row px-5 py-1 rounded-full">
+            <button class="font-bold text-white bg-[#f97316] cursor-pointer rounded-full w-7 h-6 mr-1">+</button>
+            <button class="font-bold text-white bg-[#fb923c] cursor-pointer rounded-full w-7 h-6">=</button>
+            <h1 class="font-bold text-[#f97316] text-2xl ml-2">Calculator</h1>
+        </div>
+
+        <!-- 
+        -------------------
+        Calculator
+        -------------------
+        -->
+        <div class="flex justify-start flex flex-col items-start bg-white w-80 rounded-lg h-110 p-3">
+            <!-- 3 DOTS -->
+            <div class="gap-2 flex  flex-row items-center justify-center rounded-[10px]">
+                <div class="bg-red-500 rounded-full p-1 w-1"></div>
+                <div class="bg-orange-500 rounded-full p-1 w-1"></div>
+                <div class="bg-green-500 rounded-full p-1 w-1"></div>
+            </div>
+            <!-- Total -->
+            <div class="flex justify-center bg-white-500 border-b border-zinc-400  w-full items-center">
+                <h1 class="font-bold text-black text-4xl">344</h1>
+            </div>
+            <!-- Symbols -->
+            <div class="grid grid-cols-4 gap-x-10 gap-y-5 py-2">
+                <div class="transition-all duration-300 cursor-pointer hover:font-bold hover:text-white hover:bg-[#f97316] rounded-md text-center px-3 py-4">AC</div>
+                <div class="transition-all duration-300 cursor-pointer hover:font-bold hover:text-white hover:bg-[#f97316] rounded-md text-center px-3 py-4">/</div>
+                <div class="transition-all duration-300 cursor-pointer hover:font-bold hover:text-white hover:bg-[#f97316] rounded-md text-center px-3 py-4">%</div>
+                <div class="transition-all duration-300 cursor-pointer hover:font-bold hover:text-white hover:bg-[#f97316] rounded-md text-center px-3 py-4">÷</div>
+                <div class="transition-all duration-300 cursor-pointer hover:font-bold hover:text-white hover:bg-[#f97316] rounded-md text-center px-3 py-4">7</div>
+                <div class="transition-all duration-300 cursor-pointer hover:font-bold hover:text-white hover:bg-[#f97316] rounded-md text-center px-3 py-4">7</div>
+                <div class="transition-all duration-300 cursor-pointer hover:font-bold hover:text-white hover:bg-[#f97316] rounded-md text-center px-3 py-4">9</div>
+                <div class="transition-all duration-300 cursor-pointer hover:font-bold hover:text-white hover:bg-[#f97316] rounded-md text-center px-3 py-4">X</div>
+                <div class="transition-all duration-300 cursor-pointer hover:font-bold hover:text-white hover:bg-[#f97316] rounded-md text-center px-3 py-4">4</div>
+                <div class="transition-all duration-300 cursor-pointer hover:font-bold hover:text-white hover:bg-[#f97316] rounded-md text-center px-3 py-4">5</div>
+                <div class="transition-all duration-300 cursor-pointer hover:font-bold hover:text-white hover:bg-[#f97316] rounded-md text-center px-3 py-4">6</div>
+                <div class="transition-all duration-300 cursor-pointer hover:font-bold hover:text-white hover:bg-[#f97316] rounded-md text-center px-3 py-4">-</div>
+                <div class="transition-all duration-300 cursor-pointer hover:font-bold hover:text-white hover:bg-[#f97316] rounded-md text-center px-3 py-4">3</div>
+                <div class="transition-all duration-300 cursor-pointer hover:font-bold hover:text-white hover:bg-[#f97316] rounded-md text-center px-3 py-4">2</div>
+                <div class="transition-all duration-300 cursor-pointer hover:font-bold hover:text-white hover:bg-[#f97316] rounded-md text-center px-3 py-4">1</div>
+                <div class="transition-all duration-300 cursor-pointer hover:font-bold hover:text-white hover:bg-[#f97316] rounded-md text-center px-3 py-4">+</div>
+                
+            </div>
+            <div class="flex flex-row gap-10">
+                <div class="transition-all duration-300 cursor-pointer hover:font-bold hover:text-white hover:bg-[#f97316] rounded-md text-center px-5 py-4">0</div>
+                <div class="transition-all duration-300 cursor-pointer hover:font-bold hover:text-white hover:bg-[#f97316] rounded-md text-center px-5 py-4">.</div>
+                <div class="transition-all duration-300 cursor-pointer text-white font-bold bg-[#f97316] rounded-md text-center w-full px-14 py-4">=</div>
+         
+            </div>
+        </div>
+    </div>
+</body>
+</html>
